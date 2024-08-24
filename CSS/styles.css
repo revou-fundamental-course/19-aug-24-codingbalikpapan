@@ -1,0 +1,190 @@
+body{
+    background-color: antiquewhite;
+    height: 578px;
+    width: 1366px;
+}
+/* Bagian Navigasi */
+.Bagian_Navigasi{
+    display: flex;
+    flex-direction: row;
+    background-color:  #303c6c;
+    border: #000000 solid 1px;
+    width: 1366px;
+}
+#palingbelakang{
+    margin-right: 0.7cm;
+}
+.kotak{
+    display: flex;
+    flex-direction: row;
+}
+.kotak > a {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f4976c;
+    padding: 0.3cm;
+    margin-top: 0.5cm;
+    margin-right: 0.15cm;
+    margin-bottom: 0.5cm;
+    border-radius: 1cm;
+    text-decoration: none;
+}
+.logokotak{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+}
+.logokotak > h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f4976c;
+    padding: 0.18cm;
+    margin-bottom: 0.5cm;
+    text-shadow: 2px 2px #000000;
+}
+#palingbelakang > a{
+    margin-right: 1cm;
+    color: #303c6c;
+    background-color: #f4976c;
+}
+.kotak a:hover{
+    color: #303c6c;
+    background-color: #f4976c;
+}
+.logo{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/003/206/498/small_2x/cute-smiling-sun-face-funny-sun-character-for-kids-vector.jpg);
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    margin-top: 0.4cm;
+    margin-right: 0.3cm;
+    margin-left: 1cm;
+    background-size: cover;
+}
+/* Bagian banner */
+
+.gambarbanner {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_siXdUzuyMoVj8iwRGxPaN4givKwcywpfbw&s);
+    height: 578px;
+    width: 1366px;
+    background-color: purple;
+    background-position: center;
+    border-right: #000000 solid 1px;
+    border-left: #000000 solid 1px;
+}
+
+.gambarbanner > h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 250%;
+}
+
+.gambarbanner > h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 23.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 250%;
+    text-shadow: 1px 1px #000000;
+}
+
+.gambarbanner > a{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 250%;
+    text-shadow: 1px 1px #000000;
+    background-color: #f4976c;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 0.2cm;
+}
+/* Bagian About Us */
+.about{
+    background-color: #65b4b4;
+    border: #000000 solid 1px;
+}
+.gambar{
+    display: flex;
+}
+.gambar img{
+    flex:1;
+    width: 10cm;
+    margin: 1cm;
+    margin-left: 3cm;
+    border-radius: 0.5cm;
+}
+.about_us{
+    flex: 3;
+    margin-left: 1cm;
+    margin-top: 1.3cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 2cm;
+}
+.about_us p{
+    margin-top: -0.4cm;
+}
+
+/* Bagian Form */
+.open{
+    margin-left: 1cm;
+    border: #65b4b4 solid 0.1cm;
+    margin-top: 1cm;
+    padding: 0.2cm;
+}
+.open > h2 {
+    margin-bottom: -0.3cm;
+    margin-top: -0.05cm;
+}
+
+.tabfor{
+    display: flex;
+    flex-direction: row;
+}
+.form.tabel{
+    flex: 1;
+}
+
+.kolom{
+    margin-bottom: 0.2cm;
+}
+
+.buat_form{
+    display: flex;
+    flex-direction: row;    
+}
+
+.bagiankata{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.bagiankata > label{
+    margin-bottom: 0.2cm;
+}
+
+.bagiankolom{
+    display: flex;
+    flex-direction: column;
+    flex:3
+}
+.bagiankolom > input{
+    margin-bottom: 0.2cm;
+}
+
+.tabel{
+    margin-left: 1cm;
+}
